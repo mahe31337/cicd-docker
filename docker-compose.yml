@@ -1,0 +1,7 @@
+version: '3.4'
+services:
+  mahesh:
+    image: ubuntu:6
+    ports:
+      - "8181:80" # Corrected port mapping syntax
+
